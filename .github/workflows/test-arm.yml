@@ -1,0 +1,11 @@
+
+name: Hello World ARM64
+
+on: workflow_dispatch
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-24.04-arm
+    steps:
+      - name: Say Hello
+        run: echo "Hello, World from ARM64 with 4 cores!"
